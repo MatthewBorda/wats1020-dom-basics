@@ -17,13 +17,18 @@
             <p id="fortune-cookie-text">Click the button to generate a saying.</p>
         </div>
         <!-- TODO: Make this button execute the `generateFortuneCookie()` function. -->
-        <button class="generate-button">
+        <button class="generate-button" onclick="generateFortuneCookie(); clickCounter(); " >
             Make My Fortune!
         </button>
         <hr>
         <h2>Previous Fortunes</h2>
+      <p>Clicks: <a id="clicks">0</a></p>
+       <a id="twitter" href="http://www.twitter.com">Twitter</a>
         <ul id="previous-fortunes-container">
         <!-- TODO: Modify javascript so previously generated fortunes are listed here. -->
         </ul>
     </body>
 </html>
+
+
+<!-- <a href="http://www.freepik.com/free-photos-vectors/christmas">Christmas vector designed by Freepik</a> -->

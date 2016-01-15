@@ -11,3 +11,21 @@ html {
     padding: 1em;
     margin: 1em;
 }
+ul li {
+  list-style:none;
+   
+ background: #d1703c;
+
+}
+
+li {
+  opacity: 0;
+  transform: rotateX(-90deg);
+  transition: all 0.5s cubic-bezier(.36,-0.64,.34,1.76);
+}
+li.show {
+  opacity: 1;
+  transform: none;
+  transition: all 0.5s cubic-bezier(.36,-0.64,.34,1.76);
+}
+
