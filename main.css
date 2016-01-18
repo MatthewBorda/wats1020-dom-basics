@@ -4,18 +4,28 @@ html {
     text-align: center;
     padding: 2em;
     font-family: Arial, Helvetica, sans-serif;
+    color:white;
 }
 
 .fortune-cookie-saying-wrapper {
-    border: 1px solid #666;
-    padding: 1em;
-    margin: 1em;
+
+      margin-left:1.5%;
+      margin-right:1.5%;    
+      background: rgb(251,176,59);
+      background: rgba(251,176,59,.60);
+}
+
+ul {
+  padding:0;
 }
 ul li {
   list-style:none;
-   
- background: #d1703c;
-
+   padding:0;
+  margin:0;
+  background: rgb(183,68,73);
+  background: rgba(183,68,73,.60);
+  margin-left:1.5%;
+  margin-right:1.5%;
 }
 
 li {
@@ -29,3 +39,18 @@ li.show {
   transition: all 0.5s cubic-bezier(.36,-0.64,.34,1.76);
 }
 
+body {
+    width:800px;
+    height:100px;
+  margin:auto;
+  background: rgb(100,8,11);
+ 
+}
+
+.imageContainer {
+    height:650px;
+     background-image: url("newyear.jpg") ;
+    background-repeat: no-repeat;
+    background-position:center;
+      background-size: 97%;
+}
